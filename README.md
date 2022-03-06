@@ -1,6 +1,6 @@
 ## About ::
 
-simple landing page I built to help me organize all my web3 work
+this is a simple landing page I built to help me organize all my web3 work and make it easily accessible
 
 ## Tools ::
 
@@ -16,10 +16,14 @@ the awesome tools I used to build the page:
 if you want to copy my page for some reason..
 
 ``` git clone https://github.com/0x-wegge/weggeworld.git ```
+
 ``` cd weggeworld ```
+
 ``` yarn ```
+
 ``` yarn dev ```
+
 
 then open your browser to:
 
-https:///localhost:3000/
+http://localhost:3000/
