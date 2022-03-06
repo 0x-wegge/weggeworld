@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import {Button, Page, Card, Grid, Text, Link} from '@geist-ui/core'
+import {Page, Grid, Spacer} from '@geist-ui/core'
 import { Icon } from '@iconify/react'
 import Twitter from '../components/twitter'
 import Github from '../components/github'
@@ -27,6 +27,7 @@ const Home: NextPage = () => {
               <Github />
               <Medium />
               <Juno />
+              <Spacer h={6}/>
             </Grid.Container>
           </Page.Content>
           <Page.Footer>
