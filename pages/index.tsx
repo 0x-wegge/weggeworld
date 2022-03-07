@@ -25,8 +25,8 @@ const Home: NextPage = () => {
             <Grid.Container gap={1.5}>
               <Twitter />
               <Github />
-              <Medium />
               <Juno />
+              <Medium />
               <Spacer h={6}/>
             </Grid.Container>
           </Page.Content>
