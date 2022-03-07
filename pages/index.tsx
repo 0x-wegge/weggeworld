@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import {Page, Grid, Spacer} from '@geist-ui/core'
+import {Page, Grid, Spacer, Text} from '@geist-ui/core'
 import { Icon } from '@iconify/react'
 import Twitter from '../components/twitter'
 import Github from '../components/github'
@@ -17,11 +17,11 @@ const Home: NextPage = () => {
       </Head>
         <Page>
           <Page.Header>
-            <h1>weggeworld 🌎</h1>
+            <Text h2 style={{ letterSpacing: '-1px' }}>weggeworld🌎</Text>
           </Page.Header>
           <Page.Content>
-            <h2>hello everyone!</h2>
-            <p>here is where you can find my stuff:</p>
+            <Text h3>hello everyone!</Text>
+            <Text p>here is where you can find my stuff:</Text>
             <Grid.Container gap={1.5}>
               <Twitter />
               <Github />
@@ -31,7 +31,7 @@ const Home: NextPage = () => {
             </Grid.Container>
           </Page.Content>
           <Page.Footer>
-            <h2>made by wegge - 🌎</h2>
+            <Text h2 style={{ letterSpacing: '1px'}} >made by wegge</Text>
           </Page.Footer>
         </Page>
     </div>

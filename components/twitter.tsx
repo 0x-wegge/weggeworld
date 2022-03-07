@@ -3,13 +3,17 @@ import { Icon } from '@iconify/react'
 
 function Twitter() {
     return(
-        <Grid xs={12} justify="center">
+        <Grid lg={12} xl={12} justify="center" alignContent="center">
           <Card width="100%" margin="20px">
             <Text h4 my={0}>Twitter</Text>
-            <Text><Icon icon="icon-park:twitter" width="64" height="64"></Icon></Text>
+            <Link color target="_blank" href="https://twitter.com/0x_wegge">
+              <Icon icon="icon-park:twitter" width="64" height="64"></Icon>
+            </Link>
+            <Grid xs={0} sm={0} md={0} lg={12} xl={12}>
             <Card.Footer>
               <Link color target="_blank" href="https://twitter.com/0x_wegge">https://twitter.com/0x_wegge</Link>
             </Card.Footer>
+            </Grid>
           </Card>
         </Grid>
     )
