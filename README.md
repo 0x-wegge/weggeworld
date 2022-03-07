@@ -11,9 +11,16 @@ the awesome tools I used to build the page:
  - Iconify
  - Inter Font
 
-## Setup
+## Setup ::
 
 if you want to copy my page for some reason..
+
+prerequisites:
+
+ - Node.js
+ - Git
+
+then run:
 
 ``` git clone https://github.com/0x-wegge/weggeworld.git ```
 
@@ -24,6 +31,10 @@ if you want to copy my page for some reason..
 ``` yarn dev ```
 
 
-then open your browser to:
+and open your browser to:
 
 http://localhost:3000/
+
+## Deployment ::
+
+This project was deployed using Vercel.
