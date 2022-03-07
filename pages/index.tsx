@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       </Head>
         <Page>
           <Page.Header>
-            <Text h2 style={{ letterSpacing: '-1px' }}>weggeworld🌎</Text>
+            <Text h1 style={{ letterSpacing: '-1.75px' }}>weggeworld🌎</Text>
           </Page.Header>
           <Page.Content>
             <Text h3>hello everyone!</Text>
@@ -31,7 +31,7 @@ const Home: NextPage = () => {
             </Grid.Container>
           </Page.Content>
           <Page.Footer>
-            <Text h2 style={{ letterSpacing: '1px'}} >made by wegge</Text>
+            <Text h2 style={{ letterSpacing: '1px', fontWeight: "400" }} >made by wegge</Text>
           </Page.Footer>
         </Page>
     </div>
