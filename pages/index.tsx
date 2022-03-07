@@ -27,7 +27,7 @@ const Home: NextPage = () => {
               <Github />
               <Medium />
               <Juno />
-              <Spacer h={6}/>
+              <Spacer h={8}/>
             </Grid.Container>
           </Page.Content>
           <Page.Footer>

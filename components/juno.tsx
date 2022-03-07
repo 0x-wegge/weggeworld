@@ -4,7 +4,7 @@ import { Icon } from '@iconify/react'
 function Juno() {
     return(
       <Grid lg={12} xl={12} justify="center" alignContent="center">
-          <Card width="100%" margin="20px">
+          <Card width="95%" margin="25px">
             <Text h4 my={0}>Juno</Text>
             <Link target="_blank" href="https://dens.sh/dens::wegge">
               <Icon icon="icon-park:blockchain" width="64" height="64"></Icon>

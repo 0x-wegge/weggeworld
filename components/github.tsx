@@ -4,7 +4,7 @@ import { Icon } from '@iconify/react'
 function Github() {
     return(
         <Grid lg={12} xl={12} justify="center" alignContent="center">
-          <Card width="100%" margin="20px">
+          <Card width="100%" margin="25px">
             <Text h4 my={0}>Github</Text>
             <Link target="_blank" href="https://github.com/0x-wegge">
               <Icon icon="icon-park:github" width="64" height="64"></Icon>

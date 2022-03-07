@@ -4,7 +4,7 @@ import { Icon } from '@iconify/react'
 function Medium() {
     return(
         <Grid lg={12} xl={12} justify="center" alignContent="center">
-          <Card width="100%" margin="20px">
+          <Card width="95%" margin="25px">
             <Text h4 my={0}>Medium</Text>
             <Link color target="_blank" href="https://medium.com/@0x_wegge">
               <Icon icon="icon-park:abnormal" width="64" height="64"></Icon>
