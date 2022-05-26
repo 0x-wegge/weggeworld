@@ -11,7 +11,7 @@ function Twitter() {
             </Link>
             <Grid xs={0} sm={0} md={0} lg={12} xl={12}>
             <Card.Footer>
-              <Link color target="_blank" href="https://twitter.com/0x_wegge">https://twitter.com/0x_wegge</Link>
+              <Link color target="_blank" href="https://twitter.com/0xwegge">https://twitter.com/0xwegge</Link>
             </Card.Footer>
             </Grid>
           </Card>
