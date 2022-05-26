@@ -11,7 +11,7 @@ function Github() {
             </Link>
             <Grid xs={0} sm={0} md={0} lg={12} xl={12}>
             <Card.Footer>
-              <Link color target="_blank" href="https://github.com/0x-wegge">https://github.com/0x-wegge</Link>
+              <Link color target="_blank" href="https://github.com/0xwegge">https://github.com/0xwegge</Link>
             </Card.Footer>
             </Grid>
           </Card>
